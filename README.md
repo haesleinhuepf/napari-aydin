@@ -23,12 +23,15 @@ https://napari.org/docs/plugins/index.html
 
 ## Installation
 
-You can install `napari-aydin` via [pip]:
+It is recommended to use napari-aydin in a conda-environment setup like this. 
+If you have never worked with conda-environments, consider reading [this guide first](https://biapol.github.io/blog/johannes_mueller/anaconda_getting_started/).
+
+    conda create --name aydin-env python=3.9 napari=0.4.15 -c conda-forge
+    conda activate aydin-env
+
+You can then install `napari-aydin` via [pip]:
 
     pip install napari-aydin
-
-
-
 
 ## Contributing
 
